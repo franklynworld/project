@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #0073e6;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+}
+
+header nav {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    background-color: #005bb5;
+    border-radius: 5px;
+}
+
+/* Page Layout */
+section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #0073e6;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    border-color: #0073e6;
+    outline: none;
+}
+
+/* Information Section */
+#frequent-flyer,
+#edit-profile,
+#redeem-points {
+    text-align: center;
+}
+
+#frequent-flyer p,
+#edit-profile form {
+    font-size: 18px;
+}
+
+#redeem-points p {
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header nav {
+        display: block;
+    }
+
+    header nav a {
+        display: inline-block;
+        margin: 10px 0;
+    }
+
+    form {
+        width: 90%;
+    }
+}
