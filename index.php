@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&display=swap">
     <!-- Styles -->
     <style>
-        :root {
+       :root {
             --primary-color: #005f73; /* Deep teal */
             --secondary-color: #94d2bd; /* Light mint */
             --accent-color: #ee9b00; /* Warm gold */
